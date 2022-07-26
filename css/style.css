@@ -1,0 +1,78 @@
+html{
+    background-color: rgb(217, 218, 216);
+    font-family:'Times New Roman', Times, serif;
+}
+.foto_perfil{
+    height: 180px;
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 10px 10px 60px black;
+}
+.contenedor{
+    position: relative;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    height: 1000;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+.contenedor .contenedor_izquierdo{
+    position: relative;
+    background: rgb(97,151,189);
+    background: linear-gradient(0deg, rgba(97,151,189,1) 0%, rgba(47,90,120,1) 67%);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.contenedor .contenedor_derecho{
+    position: relative;   
+    padding: 40px;
+}
+.main{
+    text-align: left;
+}
+header{
+    color:white;
+}
+/*titulos*/
+h1{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+/*termina titulos*/
+
+.informacion_personal{
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5px;
+    line-height: 2px;
+}
+
+.contenedor_izquierdo h2{
+    text-align: left;
+}
+p{
+    text-align: justify;
+}
+img{
+    justify-content: center;
+    height: 140px;
+    width: 140px;
+}
+li{
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
